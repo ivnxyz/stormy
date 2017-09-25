@@ -13,6 +13,7 @@
 		A63A975D1F786FA700FC002A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63A975C1F786FA700FC002A /* Assets.xcassets */; };
 		A63A97601F786FA700FC002A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63A975E1F786FA700FC002A /* LaunchScreen.storyboard */; };
 		A63A97681F78989E00FC002A /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A97671F78989E00FC002A /* WeatherAPIClient.swift */; };
+		A63A976A1F789BB200FC002A /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A97691F789BB200FC002A /* JSONDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A63A975F1F786FA700FC002A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A63A97611F786FA800FC002A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63A97671F78989E00FC002A /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
+		A63A97691F789BB200FC002A /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A63A975E1F786FA700FC002A /* LaunchScreen.storyboard */,
 				A63A97611F786FA800FC002A /* Info.plist */,
 				A63A97671F78989E00FC002A /* WeatherAPIClient.swift */,
+				A63A97691F789BB200FC002A /* JSONDownloader.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63A976A1F789BB200FC002A /* JSONDownloader.swift in Sources */,
 				A63A97681F78989E00FC002A /* WeatherAPIClient.swift in Sources */,
 				A63A97581F786FA600FC002A /* ViewController.swift in Sources */,
 				A63A97561F786FA600FC002A /* AppDelegate.swift in Sources */,
