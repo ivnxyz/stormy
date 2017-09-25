@@ -32,23 +32,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="upF-IM-Amv">
-                                <rect key="frame" x="147" y="600.5" width="81.5" height="50.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oaxaca" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozk-K2-hyH">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.5" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="México" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFX-tP-Ry6">
-                                        <rect key="frame" x="0.0" y="29" width="81.5" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice weather to get an ice cream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKK-vg-3mC">
                                 <rect key="frame" x="59" y="261" width="257" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
@@ -64,8 +47,6 @@
                             <constraint firstItem="yt7-Be-DGk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Neo-sX-3Oz"/>
                             <constraint firstItem="5UG-iz-sLJ" firstAttribute="top" secondItem="eKK-vg-3mC" secondAttribute="bottom" constant="12" id="Oga-Fc-2As"/>
                             <constraint firstItem="yt7-Be-DGk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Pxd-Do-ZF9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="upF-IM-Amv" secondAttribute="bottom" constant="16" id="bdc-B3-0bg"/>
-                            <constraint firstItem="upF-IM-Amv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cSC-yf-60j"/>
                             <constraint firstItem="yt7-Be-DGk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="f17-IK-t3F"/>
                             <constraint firstItem="5UG-iz-sLJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gQp-lG-uQp"/>
                             <constraint firstItem="Una-KJ-8tr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="oke-OI-eEC"/>
@@ -74,8 +55,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="ozk-K2-hyH" id="k6z-WA-fef"/>
-                        <outlet property="countryLabel" destination="PFX-tP-Ry6" id="wtG-nk-7bg"/>
                         <outlet property="degreesLabel" destination="5UG-iz-sLJ" id="JA4-fn-WSX"/>
                         <outlet property="descriptionLabel" destination="eKK-vg-3mC" id="HSd-Gm-j0D"/>
                     </connections>
