@@ -27,8 +27,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UG-iz-sLJ">
-                                <rect key="frame" x="138" y="295" width="100.5" height="78"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="65"/>
+                                <rect key="frame" x="135.5" y="293.5" width="105" height="81.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="68"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -50,7 +50,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice weather to get an ice cream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKK-vg-3mC">
-                                <rect key="frame" x="59" y="262.5" width="257" height="20.5"/>
+                                <rect key="frame" x="59" y="261" width="257" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -73,6 +73,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="ozk-K2-hyH" id="k6z-WA-fef"/>
+                        <outlet property="countryLabel" destination="PFX-tP-Ry6" id="wtG-nk-7bg"/>
+                        <outlet property="degreesLabel" destination="5UG-iz-sLJ" id="JA4-fn-WSX"/>
+                        <outlet property="descriptionLabel" destination="eKK-vg-3mC" id="HSd-Gm-j0D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
